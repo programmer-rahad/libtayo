@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Libtayo</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- start header section -->
+    <header id="header-section" class="landing-header">
+      <div class="header-top">
+        <div
+          class="
+            container
+            d-sm-flex
+            flex-wrap flex-md-nowrap
+            text-center
+            justify-content-center justify-content-md-between
+            align-items-center
+          "
+        >
+          <p class="tg-regular mb-0 mt-1 mt-sm-0 me-auto">
+            For Canadian residents only
+          </p>
+          <a href="safty-profile.html" class="c-darkblue tg-bold-20"
+            >Safety Information & References</a
+          >
+          <a href="safty-profile.html" class="c-darkblue tg-bold-20"
+            >Product Monograph</a
+          >
+          <a href="#" class="mb-1 mb-sm-0 d-none d-md-block">
+            <img src="assets/images/top-logo.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="header-main tg-bold-20">
+        <div
+          class="
+            container
+            d-flex
+            flex-wrap
+            align-items-center
+            justify-content-between
+          "
+        >
+          <a href="/" class="logo">
+            <img src="assets/images/logo.png" alt="" />
+          </a>
+          <i class="fas fa-bars d-lg-none"></i>
+          <nav class="text-uppercase d-lg-flex align-items-center">
+            <ul class="d-lg-flex">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="study-design.html">Study Designs</a></li>
+              <li><a href="efficacy-1.html">Efficacy Data</a></li>
+              <li><a href="safety-profile.html">Safety Profile</a></li>
+              <li><a href="moa.html">MOA</a></li>
+              <li>
+                <a href="dosing-administration.html">Dosing & Administration</a>
+              </li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="isi-references.html">Coverage</a></li>
+            </ul>
+            <a href="#">EN <i class="fas fa-angle-up"></i></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- start landing content section -->
+    <section id="landing-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="text-center">
+              <img class="mb-4" src="assets/images/user.svg" alt="" />
+              <h3 class="c-deeppink tg-bold-20 mb-0">I am a</h3>
+              <h2 class="text-uppercase tg-bold-20 c-darkblue">patient</h2>
+              <a
+                href="#"
+                class="db-button bg-darkblue text-white"
+                data-bs-toggle="modal"
+                data-bs-target="#external-website"
+                >Connect here <i class="fas fa-arrow-right ms-1"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-center">
+              <img class="mb-4" src="assets/images/professional.svg" alt="" />
+              <h3 class="c-deeppink tg-bold-20 mb-0">I am a</h3>
+              <h2 class="text-uppercase tg-bold-20 c-darkblue">
+                healthcare professional
+              </h2>
+              <a href="#" class="db-button bg-darkblue text-white"
+                >Connect here <i class="fas fa-arrow-right ms-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end landing content section -->
+
+    <!-- start fotoer section -->
+    <footer id="footer-section">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="mb-0">
+            Last updated: [date] <br />
+            [code]
+          </p>
+          <a href="#">
+            <img src="assets/images/footer-logo.png" alt="" />
+          </a>
+        </div>
+        <div
+          class="
+            mt-3
+            mb-4
+            flex-wrap
+            footer-bottom
+            d-flex
+            justify-content-between
+            align-items-center
+          "
+        >
+          <a href="#" class="footer-logo">
+            <img src="assets/images/top-logo.png" alt="" />
+          </a>
+          <div class="footer-nav d-flex flex-column flex-sm-row">
+            <a href="#"> Contact Us </a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="http://www.example.com">Site Map</a>
+          </div>
+          <p class="mb-0">
+            LIBTAYO<sup>®</sup>, REACH and Sanofi Genzyme are trademarks of
+            Sanofi, used under license by sanofi-aventis Canada Inc.
+            <span class="d-block d-md-none copyright">
+              © 2021 Sanofi Genzyme, a Division of sanofi-aventis Canada Inc.
+              All rights reserved.
+            </span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- end fotoer section -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="patientModal"
+      tabindex="-1"
+      aria-labelledby="patientModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="tp-btn"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img src="assets/images/close-modal.png" alt="" />
+            </button>
+          </div>
+          <div class="modal-body text-center mxw-500">
+            <h3 class="c-deeppink tg-bold mb-3">
+              This <sup>Pr</sup>LIBTAYO<sup>®</sup> (cemiplimab) website is for
+              Canadian healthcare professionals only. <br />
+              Please select your province and enter your medical license number
+              to access the website.
+            </h3>
+            <form class="din-form text-start">
+              <label>Province</label>
+              <br />
+              <select>
+                <option value="#">Quebec</option>
+                <option value="#">Quebec</option>
+                <option value="#">Quebec</option>
+              </select>
+              <br />
+              <br />
+              <label for="landing-din">Medical License Number</label>
+              <input type="text" id="landing-din" placeholder="######" />
+              <div class="text-center">
+                <button class="text-uppercase db-button" type="submit">
+                  Submit <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wrong Pin Modal -->
+    <div
+      class="modal fade"
+      id="wrongPinModal"
+      tabindex="-1"
+      aria-labelledby="wrongPinModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="tp-btn"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img src="assets/images/close-modal.png" alt="" />
+            </button>
+          </div>
+          <div class="modal-body text-center mxw-500">
+            <h3 class="c-deeppink tg-bold mb-0">Wrong PIN – Contact us</h3>
+            <a href="#" class="db-button"
+              >Continue <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- External website popup -->
+    <div
+      class="modal fade"
+      id="external-website"
+      tabindex="-1"
+      aria-labelledby="external-website"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="tp-btn"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img src="assets/images/close-modal.png" alt="" />
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <p class="mb-4">
+              You are now leaving LIBTAYO.ca. The content of the website you are
+              visiting is not controlled by the LIBTAYO.ca team. The link is
+              being offered for your convenience and should not be viewed as an
+              endorsement of the content, product or services offered here.
+            </p>
+            <a
+              href="#"
+              class="
+              responsive-button
+                mb-4
+                bg-darkblue
+                text-white
+                radius-30
+                db-button
+                text-uppercase
+                close-btn
+              "
+              >Stay on LIBTAYO.ca <i class="fas fa-arrow-right"></i
+            ></a>
+            <br />
+            <a
+              href="#"
+              class="
+              responsive-button
+                mb-5
+                bg-darkblue
+                text-white
+                radius-30
+                db-button
+                text-uppercase
+                continue-btn
+              "
+              >Continue to external website <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Balancing Copy Popup -->
+    <div
+      class="modal fade"
+      id="balancing-copy"
+      tabindex="-1"
+      aria-labelledby="balancing-copy"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable
+        "
+      >
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="border-box-content py-3 my-5">
+              <div class="container">
+                <div class="bp-content">
+                  <p>
+                    LIBTAYO (cemiplimab) is indicated for the treatment of adult
+                    patients with metastatic or locally advanced cutaneous
+                    squamous cell carcinoma who are not candidates for curative
+                    surgery or curative radiation.
+                  </p>
+                  <p>
+                    LIBTAYO has been issued marketing authorization with
+                    conditions, pending the results of trials to verify its
+                    clinical benefit. Patients should be advised of the nature
+                    of the authorization. For further information for LIBTAYO
+                    please refer to Health Canada’s Notice of Compliance with
+                    conditions - drug products website. Marketing authorization
+                    with conditions is based on tumour response rate and
+                    durability of response. An improvement in overall survival
+                    (OS) or progression free survival (PFS) has not yet been
+                    established in this single-arm study.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <section id="isi-content">
+              <div class="container">
+                <h3 class="c-deeppink tg-bold mb-4">
+                  Important Safety Information
+                </h3>
+                <div class="isi-items">
+                  <div class="isi-item">
+                    <h4>Clinical use:</h4>
+                    <p>
+                      The safety and efficacy of LIBTAYO in pediatric patients
+                      have not been established.
+                    </p>
+                  </div>
+                  <div class="isi-item">
+                    <h4>Contraindications:</h4>
+                    <ul class="pink-bullet-list">
+                      <li>
+                        Hypersensitivity to LIBTAYO or any ingredient in the
+                        formulation or component of the container
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="isi-item">
+                    <h4>Relevant warnings and precautions:</h4>
+                    <ul class="pink-bullet-list">
+                      <li>Risks of solid organ transplant rejection</li>
+                      <li>
+                        Immune-mediated adverse reactions including:
+                        <ul>
+                          <li>- Pneumonitis</li>
+                          <li>- Colitis</li>
+                          <li>- Hepatitis</li>
+                          <li>
+                            - Endocrinopathies (hypothyroidism, hyperthyroidism,
+                            hypophysitis, adrenal insufficiency, type 1 diabetes
+                            mellitus)
+                          </li>
+                          <li>- Skin adverse reactions</li>
+                          <li>- Nephritis</li>
+                          <li>
+                            - Other potential immune-mediated adverse reactions,
+                            including cases of graft-versus-host disease in
+                            association with allogeneic hematopoietic stem cell
+                            transplant
+                          </li>
+                        </ul>
+                      </li>
+                      <li>Infusion-related reactions</li>
+                      <li>Fertility</li>
+                      <li>Pregnant and nursing women</li>
+                      <li>Elderly</li>
+                      <li>Driving or operating machinery</li>
+                    </ul>
+                  </div>
+                  <div class="isi-item">
+                    <h4>For more information:</h4>
+                    <p>
+                      Please consult the LIBTAYO Product Monograph at
+                      <a href="http://products.sanofi.ca/en/libtayo.pdf"
+                        >http://products.sanofi.ca/en/libtayo.pdf</a
+                      >
+                      for important information relating to adverse reactions,
+                      drug interactions, and dosing information which have not
+                      been discussed in this piece.
+                    </p>
+                    <p>
+                      The Product Monograph is also available by calling us at
+                      1-800-589-6215.
+                    </p>
+                    <p>
+                      Please see the
+                      <span class="text-decoration-underline">
+                        LIBTAYO Product Monograph
+                      </span>
+                      for complete prescribing information.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="text-center">
+              <a href="#" class="db-button bg-darkblue text-white"
+                >Continue <i class="fas fa-arrow-right ms-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exclusion Criteria popup -->
+    <div
+      class="modal fade"
+      id="exclusion-criteria"
+      tabindex="-1"
+      aria-labelledby="exclusion-criteria"
+      aria-hidden="true"
+    >
+      <div
+        class="
+          modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable
+        "
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="tp-btn"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <img src="assets/images/close-modal.png" alt="" />
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="mb-4 c-deeppink tg-bold">
+              Exclusion criteria in both studies: <sup>1</sup>
+            </h4>
+            <ul class="pink-bullet-list black-bullet-list">
+              <li>
+                Patients with autoimmune disease that required systemic therapy
+                with immunosuppressant agents within 5 years
+              </li>
+              <li>History of solid organ transplant</li>
+              <li>
+                Prior treatment with anti-PD-1/PD-L1 or other immune checkpoint
+                inhibitor therapy
+              </li>
+              <li>Infection with HIV, hepatitis B or hepatitis C</li>
+              <li>ECOG performance score ≥2</li>
+              <li>
+                Anogenital SCC or SCC arising on the dry red lip (vermilion)
+              </li>
+            </ul>
+            <h4 class="mb-3 mt-5 c-deeppink tg-bold">
+              Patient demographics in Study 1423 and Study 1540<sup>1</sup>
+            </h4>
+            <img src="assets/images/exclusion-criteria.png" alt="" />
+            <div class="text-end">
+              Adapted from LIBTAYO Product Monograph<sup>1</sup>
+            </div>
+            <div class="text-center mt-5">
+              <a
+                href="#"
+                class="db-button bg-darkblue text-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                >Close <i class="fas fa-arrow-right ms-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="assets/javascript/jquery.min.js"></script>
+    <script src="assets/javascript/bootstrap.bundle.min.js"></script>
+    <script src="assets/javascript/index.js"></script>
+  </body>
+</html>
